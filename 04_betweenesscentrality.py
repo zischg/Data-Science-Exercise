@@ -51,15 +51,6 @@ print("betweenness centrality for nodes in ZH traffic network computed and expor
 ############################
 # same for flooded Situation
 
-#script for analysing betweenness centrality in the road network of the Canton of ZH
-import numpy as np
-import pandas as pd
-import networkx as nx
-import geopandas as gpd
-import matplotlib.pyplot as plt
-
-#general workspace settings
-myworkspace="/Users/esthergerber/Desktop/Uni_Bern/Data Science and complex Network/4.12.20_Exercise"
 
 #input data: the csv file for nodes and edges
 nodesfile=myworkspace+"/zh_nodes_NOT_flooded/zh_nodes_NOT_flooded.shp"
